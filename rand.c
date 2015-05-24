@@ -1,6 +1,10 @@
 #include <stdlib.h> //include needed for rand
 #include <stdio.h> //	      needed for printf
 #include <time.h> //	      needed for srand time call
+/*
+* A program to print strings and numbers to the screen, with unique output every time
+*/
+
 int main () 
 {
 	srand(time(NULL));  // this initializes the PRNG against the current unix time, i think
