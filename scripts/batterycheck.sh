@@ -1,4 +1,6 @@
 #!/bin/bash
+# This shell script reads from the sysfs vfs to measure battery energy levels
+# TODO: C rewrite, calculate percentages, reformat data
 while true; 
 	do 
                 echo "+-------------------+";
