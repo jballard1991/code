@@ -1,4 +1,11 @@
 #!/bin/bash
+# Written as a quick aggregate utility to measure statistics and information when first 
+# connecting to a new network and assuming another public facing IP from vpn/tor/wifi/etc
+# or confirming diagnostic information.
+# Some comments found throughout, some depends
+# TODO: Map deps, expand comments
+# * Usage: [-hgf] [-h help] [-g geoip lookup] [-f full lookup with geoip whois ping nmap] *
+
 OPTIND=1         # Reset in case getopts has been used previously in the shell.
 red='\033[0;31m'
 NC='\033[0m' # No Color
