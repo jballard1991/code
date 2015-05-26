@@ -14,7 +14,7 @@ DIRECTORIES:
 ├── hello.c				# hello world in c
 ├── pi					# folder for working with the number pi
 │   ├── asciipi.py			# uses binascii to convert ascii representation of binary into actual binary
-│   ├── perlconvert.txt			# perl conversion of ascii representation of binary into ascii
+│   ├── perlconvert.sh 			# perl conversion of ascii representation of binary into ascii
 │   ├── pi.90071.digits.txt		# first few digits of pi
 │   ├── pi.bc				# calculate pi with bc
 │   ├── pi.bin.16540.digits.txt		# first few digits of pi with numbers [2-9] removed, resulting in binary
