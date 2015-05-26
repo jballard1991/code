@@ -6,7 +6,7 @@ This is a personal programming code repository and working notebook.
 Where possible code will have comments and other helpful information.
 
 DIRECTORIES:
-
+```
 .					# code/
 ├── 4chb.rb				# grab 4chan html as text
 ├── dep					# deps folder
@@ -31,6 +31,6 @@ DIRECTORIES:
     ├── screenoff.sh			# turn off screen with dpms
     ├── scroll8b.sh			# read 8chan b as ascii bauded
     └── scrollb.sh			# read 4chan b as ascii bauded
-
+```
 3 directories, 20 files
  
