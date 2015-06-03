@@ -35,5 +35,5 @@ DIRECTORIES:
     ├── scroll8b.sh			# read 8chan b as ascii bauded
     └── scrollb.sh			# read 4chan b as ascii bauded
 ```
-3 directories, 21 files
+3 directories, 23 files
  
