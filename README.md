@@ -11,6 +11,7 @@ DIRECTORIES:
 ├── 4chb.rb				# grab 4chan html as text
 ├── dep					# deps folder
 │   └── baud				# program to write out characters on screen in specific baud speed
+├── fizzbuzz.c				# fizzbuzz in c
 ├── hello.c				# hello world in c
 ├── helloms.c				# hello again
 ├── pi					# folder for working with the number pi
