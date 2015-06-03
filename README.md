@@ -14,6 +14,7 @@ DIRECTORIES:
 ├── fizzbuzz.c				# fizzbuzz in c
 ├── hello.c				# hello world in c
 ├── helloms.c				# hello again
+├── mandlebrot.pl			# mandlebrot with perl
 ├── pi					# folder for working with the number pi
 │   ├── asciipi.py			# uses binascii to convert ascii representation of binary into actual binary
 │   ├── perlconvert.sh 			# perl conversion of ascii representation of binary into ascii
@@ -35,5 +36,4 @@ DIRECTORIES:
     ├── scroll8b.sh			# read 8chan b as ascii bauded
     └── scrollb.sh			# read 4chan b as ascii bauded
 ```
-3 directories, 23 files
- 
+3 directories, 24 files
