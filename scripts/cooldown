@@ -1,0 +1,21 @@
+#!/bin/bash
+while true; do
+echo "Cooling down for 6 minutes... ";
+for i in {1..120}; do echo "$i -> 14000" ; echo "14000" > /sys/devices/platform/applesmc.768/fan1_min; sleep .5; done
+for i in {1..120}; do echo "$i -> 16000" ; echo "16000" > /sys/devices/platform/applesmc.768/fan1_min; sleep .5; done
+for i in {1..120}; do echo "$i -> 14000" ; echo "14000" > /sys/devices/platform/applesmc.768/fan1_min; sleep .5; done
+for i in {1..120}; do echo "$i -> 12000" ; echo "12000" > /sys/devices/platform/applesmc.768/fan1_min; sleep .5; done
+for i in {1..120}; do echo "$i -> 10000" ; echo "10000" > /sys/devices/platform/applesmc.768/fan1_min; sleep .5; done
+for i in {1..120}; do echo "$i -> 9000" ; echo "9000" > /sys/devices/platform/applesmc.768/fan1_min; sleep .5; done
+
+echo "Reverse for 6 minutes... ";
+for i in {1..120}; do echo "$i -> 10000" ; echo "10000" > /sys/devices/platform/applesmc.768/fan1_min; sleep .5; done
+for i in {1..120}; do echo "$i -> 9000" ; echo "9000" > /sys/devices/platform/applesmc.768/fan1_min; sleep .5; done
+for i in {1..120}; do echo "$i -> 10000" ; echo "10000" > /sys/devices/platform/applesmc.768/fan1_min; sleep .5; done
+for i in {1..120}; do echo "$i -> 12000" ; echo "12000" > /sys/devices/platform/applesmc.768/fan1_min; sleep .5; done
+for i in {1..120}; do echo "$i -> 14000" ; echo "14000" > /sys/devices/platform/applesmc.768/fan1_min; sleep .5; done
+for i in {1..120}; do echo "$i -> 16000" ; echo "16000" > /sys/devices/platform/applesmc.768/fan1_min; sleep .5; done
+
+
+
+done
